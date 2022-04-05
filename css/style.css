@@ -7976,6 +7976,7 @@ ul {
     height: auto; } }
 
 .footer {
+  width: 100%;
   background-color: #FFFFFF;
   padding: 1rem;
   padding-top: 2rem;
