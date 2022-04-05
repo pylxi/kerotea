@@ -9,6 +9,7 @@
 
 .team{
 	@include page;
+    overflow-x: hidden;
 }
 
 .team-heading{

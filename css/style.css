@@ -7976,7 +7976,6 @@ ul {
     height: auto; } }
 
 .footer {
-  width: 100%;
   background-color: #FFFFFF;
   padding: 1rem;
   padding-top: 2rem;
@@ -8023,7 +8022,8 @@ ul {
 
 .tarjetas {
   margin-top: 5rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  overflow-x: hidden; }
 
 .card-icon {
   color: #514F16;
@@ -8137,7 +8137,8 @@ hr.rounded {
 
 .team {
   font-size: 1rem;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  overflow-x: hidden; }
 
 .team-heading h6, .team-heading .h6 {
   font-weight: 300; }
