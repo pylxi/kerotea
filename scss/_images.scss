@@ -1,0 +1,14 @@
+@mixin small-item {
+  width: 80px;
+  height: 80px;
+}
+
+@mixin medium-item {
+  width: 125px;
+  height: 125px;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+}

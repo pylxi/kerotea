@@ -1,0 +1,114 @@
+$nav_link_color:#FFFFFF;
+
+.nav_bar{
+	grid-area: nav;
+	width: 100%;
+	display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+	
+}
+
+.nav_logo{
+	display: flex;
+	width:100%; 
+	height:auto; 
+	max-width: 300px; 
+	min-width: 40px;
+	padding: 0.1rem;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.nav_links{
+	margin-right: 1rem;
+	ul{
+		display: flex;
+		li{
+			padding: 1rem;
+				&:hover{
+					background-color:map-get($color,secondary);
+
+				}
+
+			
+			a{
+				font-weight: map-get($font-weights,"bold");
+				color:$nav_link_color ;
+				text-transform: uppercase;
+
+			}
+			
+		}
+	}
+
+}
+
+//PARA EL BURGER 
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 40px;
+
+    	.bar{
+    		height: 7px;
+    		width: 100%;
+    		background-color: $nav_link_color;
+    		border-radius: 10px;
+
+    	}
+}
+
+//MEDIA QUERIES RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+	.toggle-button {
+        display: flex;
+    }
+
+    .nav_bar {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .nav_logo{
+	display: flex;
+	width:100%; 
+	height:auto; 
+	max-width: 200px; 
+	min-width: 40px;
+	padding: 0.1rem;
+	margin: 1rem;
+	cursor: pointer;
+	}
+
+    .nav_links {
+        display: none;
+        width: 100%;
+        	ul{
+        		width: 100%;
+        		flex-direction: column;
+
+        		li{
+        			text-align: center;
+
+        			a{
+        				padding: .5rem 1rem;
+        			}
+        		}
+        	}
+        
+    }
+
+    .nav_links.active {
+        display: flex;
+    }
+}

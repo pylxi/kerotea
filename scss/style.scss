@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*RESETEAR MODELO CAJA PARA CONTROLAR ANCHURA ELEMENTOS*/
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+	transition: all 0.25s linear;
+
+	
+}
+
+
+//BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+//MI SCSS
+
+//VARIABLES
+@import "colores";
+@import"fuentes";
+
+//COMPONENTES
+@import "images";
+@import "navbar";
+@import "cta";
+@import "slider";
+@import "footer";
+@import "social";
+@import "cards";
+
+
+//BASE Y LAYOUT
+@import"grids";
+@import "body";
+@import "menu";
+@import "about";
+@import "tiendas";
+@import "contact";
+
+//FUNCIONALIDADES
+@import"responsive";
+
+
+
+
+

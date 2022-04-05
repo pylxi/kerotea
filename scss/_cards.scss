@@ -1,0 +1,11 @@
+.tarjetas{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.card-icon{
+	color: map-get($color,terciary);
+	font-size: 3rem;
+	text-align: center;
+	padding:0.5rem;
+}

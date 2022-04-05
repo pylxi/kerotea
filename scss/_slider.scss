@@ -1,0 +1,51 @@
+$nav_link_color:#FFFFFF;
+
+
+//GRIDS
+.slider{
+	grid-area:slider;
+	width: 100%;
+
+}
+
+#myCarousel{
+	margin: 0;
+	padding:0;
+}
+
+//ESTILOR SLIDER
+.carousel-item {
+	height: 32rem;
+	position: relative;
+
+}
+
+.img-slider{
+	max-height: 100%;
+	width: auto;
+}
+
+.overlay-image{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	max-height: 100%;
+	width: auto;
+
+
+}
+
+//MEDIA QUERIES RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+	.img-slider{
+	width: 500px;
+	height: auto;}
+}
+
+	
+
+
+

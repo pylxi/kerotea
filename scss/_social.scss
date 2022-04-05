@@ -1,0 +1,29 @@
+.social-l{
+		a{
+			font-size: 2rem;
+			color: map-get($color,terciary);
+			margin:0 8px;
+			
+		}
+
+		a:hover{
+			color: map-get($color,secondary);
+			transform: scale(1.3);
+
+		}
+	}
+
+.social-s{
+		a{
+			font-size: 1rem;
+			color: map-get($color,gris-claro);
+			margin:0 8px;
+			
+		}
+
+		a:hover{
+			color: map-get($color,secondary);
+			transform: scale(1.3);
+
+		}
+	}

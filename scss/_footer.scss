@@ -1,0 +1,34 @@
+.footer{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 1rem;
+	padding-top:2rem;
+	text-align: center;
+	margin: 0;
+	grid-area:footer;
+
+	h6{
+		color: map-get($color,terciary);
+		font-size: 2rem;
+		font-weight: map-get($font-weights,"semibold");
+
+	}
+	
+}
+
+.title_footer{
+	grid-area:title_footer;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+}
+
+.socials_footer{
+	grid-area:socials_footer;
+	background-color:#FFFFFF;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+}

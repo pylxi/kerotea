@@ -1,0 +1,22 @@
+.CTA{
+	background-color:map-get($color,secondary);
+	color:white ;
+	border: none;
+	border-radius: 4px;
+	
+}
+
+//CASO PARTICULAR CTA DEL SLIDER
+
+.CTA_slider{
+	@extend .CTA;
+	box-shadow: inset 0 0 0 0 map-get($color,secondary);
+	transition: ease-out 0.5s;
+	outline: none;
+	margin: 2rem;
+}
+
+.CTA_slider:hover{
+	color: map-get($color,secondary);
+	box-shadow: inset 300px 0 0 0 #FFFFFF;
+}

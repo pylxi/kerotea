@@ -1,0 +1,29 @@
+body{
+	background-color: map-get($color,primary);
+	width: 100%;
+	display: flex;
+
+	
+}
+
+header{
+	width: 100%;
+}
+
+//ESTILO PARA PAGINAS
+@mixin page{
+	font-size: 1rem;
+	background-color:#FFFFFF;
+	
+	
+}
+
+//DIVISORES
+
+/* Rounded border */
+hr.rounded {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}

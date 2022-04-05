@@ -1,0 +1,38 @@
+.historia{
+    
+    p{
+        font-size: 14px;
+    }
+
+    padding: 2rem;
+}
+
+.team{
+	@include page;
+}
+
+.team-heading{
+   
+
+    h6{
+        font-weight: map-get($font-weights,"light");
+    }
+}
+
+.team-members{
+    padding: 1rem;
+}
+
+.team-members-profile-img img {
+	width: 130px;
+    height: 130px;
+    margin: auto;    
+    display: block;
+}
+
+.team-members-profile-text{
+    h5{
+        font-size: 1.5rem;
+        font-weight: map-get($font-weights,"bold");
+    }
+}

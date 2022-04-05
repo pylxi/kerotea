@@ -1,0 +1,70 @@
+.menu{
+	@include page;
+}
+
+.menu-title{
+	@include page-title;
+	padding-bottom:1rem;
+	color: map-get($color,secondary);
+
+}
+
+.menu-group-heading{
+	font-size: 2rem;
+	margin: 0;
+	padding-bottom: 1em;
+	border-bottom:3px solid ;
+	border-bottom-color: lighten( map-get($color,terciary) ,30%);
+
+}
+
+.menu-group{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1em;
+	padding:1.5em;
+}
+
+.menu-item{
+	display: flex;
+}
+
+
+.menu-item-img{
+	@include small-item;
+}
+
+.menu-item-heading{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.menu-item-name{
+	@include section-title;
+	 color: map-get($color,terciary);
+	 margin-right: 1.4em;
+
+}
+
+.menu-item-price{
+	@include section-title;
+	 color: map-get($color,terciary);
+
+}
+
+.menu-item-text{
+	padding-left: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.menu-group{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.menu-item-img{
+	@include medium-item;
+	}
+
+}

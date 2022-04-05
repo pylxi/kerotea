@@ -1,0 +1,73 @@
+//Estilos tipográficos
+
+
+h1,h2,h3,h4,h5{
+	color: map-get($color,terciary);
+}
+
+//FONT WEIGHT PASAR DE NUMERO A PALABRA PARA MEJOR LECTURA
+
+$font-weights: ("extralight":200, "light":300, "regular": 400, "semibold": 600, "bold": 700, "extrabold":800,"black":900);
+
+h1{
+	font-weight: map-get($font-weights,"extrabold");
+	font-size: 3rem;
+}
+
+h2{
+	font-weight: map-get($font-weights,"bold");
+	font-size: 4rem;
+	
+}
+
+h3 {
+	font-size: 3rem;
+	font-weight: map-get($font-weights,"bold");
+		
+}
+
+h4 {
+	font-size: 1.4rem;
+	
+
+}
+
+p{
+	font-size: 1rem;
+	font-weight: map-get($font-weights,"regular");
+	line-height: 1.5;
+	padding: 0.3rem;
+}
+
+//ESTILO SECCIONES DE CONTENIDO
+
+@mixin page-title{
+	font-size: 3.5rem;
+	font-weight: map-get($font-weights,"black");
+
+}
+
+@mixin section-title{
+	font-size: 1.4rem;
+	font-weight: map-get($font-weights,"semibold");
+}
+
+
+
+//ENLACES Y LISTAS
+
+ul {
+	list-style: none;
+	li{
+		display: inline-block;
+		padding: 0.5rem;
+			&:hover{
+				color: map-get($color,secondary);
+			}
+
+			a{
+				text-decoration: none;
+				
+			}
+	}
+}
