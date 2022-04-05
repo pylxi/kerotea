@@ -7947,7 +7947,8 @@ ul {
 
 .slider {
   grid-area: slider;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
 
 #myCarousel {
   margin: 0;
@@ -7976,13 +7977,14 @@ ul {
     height: auto; } }
 
 .footer {
-  width: 100%;
+  width: 100% !important;
   background-color: #FFFFFF;
   padding: 1rem;
   padding-top: 2rem;
   text-align: center;
   margin: 0;
-  grid-area: footer; }
+  grid-area: footer;
+  margin-top: 3rem; }
   .footer h6, .footer .h6 {
     color: #514F16;
     font-size: 2rem;
@@ -8024,7 +8026,10 @@ ul {
 .tarjetas {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 2rem; }
 
 .card-icon {
   color: #514F16;
@@ -8064,7 +8069,10 @@ ul {
 body {
   background-color: #AFAD55;
   width: 100%;
-  display: flex; }
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
 
 header {
   width: 100%; }

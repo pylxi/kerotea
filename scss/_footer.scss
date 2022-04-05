@@ -1,5 +1,5 @@
 .footer{
-	width: 100%;
+	width: 100% !important;
 	background-color: #FFFFFF;
 	padding: 1rem;
 	padding-top:2rem;
@@ -13,6 +13,8 @@
 		font-weight: map-get($font-weights,"semibold");
 
 	}
+
+	margin-top: 3rem;
 	
 }
 
