@@ -1,11 +1,18 @@
-.tarjetas{
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-	overflow-x: hidden;
-	margin-right: 1rem;
-	margin-left: 1rem;
+.tarjetas-container{
+	margin: 4rem;
+}
+.tarjeta{
+	margin:1rem;
+	
+	background-color:map-get($color,fondo);
+	border-radius:5px;
+	text-align: center;
 
 	padding:2rem;
+}
+
+.tarjeta-body{
+	justify-content: center;
 }
 
 .card-icon{

@@ -7973,18 +7973,16 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .img-slider {
-    width: 500px;
+    width: 400px;
     height: auto; } }
 
 .footer {
   width: 100% !important;
   background-color: #FFFFFF;
-  padding: 1rem;
-  padding-top: 2rem;
+  margin-top: 2rem;
   text-align: center;
   margin: 0;
-  grid-area: footer;
-  margin-top: 3rem; }
+  grid-area: footer; }
   .footer h6, .footer .h6 {
     color: #514F16;
     font-size: 2rem;
@@ -8023,13 +8021,18 @@ ul {
   color: #ffb7c5;
   transform: scale(1.3); }
 
-.tarjetas {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  overflow-x: hidden;
-  margin-right: 1rem;
-  margin-left: 1rem;
+.tarjetas-container {
+  margin: 4rem; }
+
+.tarjeta {
+  margin: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
   padding: 2rem; }
+
+.tarjeta-body {
+  justify-content: center; }
 
 .card-icon {
   color: #514F16;
@@ -8046,23 +8049,28 @@ ul {
 
 .container_footer {
   display: grid;
+  background-color: #FFFFFF;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "title_footer socials_footer"; }
 
 @media only screen and (max-width: 768px) {
   .container_contacto {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 0.2fr 0.3fr 1fr 5rem;
     grid-template-areas: "nav" "img" "form" "footer";
     grid-gap: 0.2 rem; }
   .contacto-img {
-    width: 200px;
+    width: 300px;
     height: auto; }
+  .socials_footer {
+    width: 100vw;
+    margin: 0; }
   .container_footer {
+    margin: 0;
     display: grid;
     background-color: #FFFFFF;
-    grid-template-columns: 100%;
+    grid-template-columns: 100vw;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "title_footer" "socials_footer"; } }
 
@@ -8256,8 +8264,13 @@ hr.rounded {
 
 .contacto-formulario {
   grid-area: form;
-  background-color: #FFFFFF;
-  padding: 2rem; }
+  background-color: #ffb7c5;
+  padding: 2rem;
+  border-radius: 5rem;
+  margin: 1.3rem; }
+
+.titulo-form {
+  color: #FFFFFF; }
 
 .datos .item, .consulta .item {
   padding: 0.4rem; }
