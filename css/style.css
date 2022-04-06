@@ -8034,6 +8034,9 @@ ul {
 .tarjeta-body {
   justify-content: center; }
 
+.tarjeta-title {
+  font-weight: 700; }
+
 .card-icon {
   color: #514F16;
   font-size: 3rem;

@@ -15,6 +15,9 @@
 	justify-content: center;
 }
 
+.tarjeta-title{
+	font-weight: map-get($font-weights,bold);
+}
 .card-icon{
 	color: map-get($color,terciary);
 	font-size: 3rem;
