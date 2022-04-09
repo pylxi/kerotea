@@ -12,15 +12,15 @@
 
 .contacto-formulario{
 	grid-area: form;
-	background-color: map-get($color,terciary);
-	padding:2rem;
+	background-color: map-get($color,fondo);
+	padding:4rem;
 	border-radius:5rem;
 	margin: 1.3rem;
 }
 
 //PARTES FORMULARIOS
 .titulo-form{
-	color: map-get($color,fondo);
+	color: map-get($color,terciary);
 
 }
 .datos{

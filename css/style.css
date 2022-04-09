@@ -7962,6 +7962,9 @@ ul {
   max-height: 100%;
   width: auto; }
 
+.caption-slider {
+  text-align: right; }
+
 .overlay-image {
   position: absolute;
   bottom: 0;
@@ -7974,7 +7977,10 @@ ul {
 @media only screen and (max-width: 768px) {
   .img-slider {
     width: 400px;
-    height: auto; } }
+    height: auto;
+    margin: auto; }
+  .caption-slider {
+    text-align: center; } }
 
 .footer {
   width: 100% !important;
@@ -8267,13 +8273,13 @@ hr.rounded {
 
 .contacto-formulario {
   grid-area: form;
-  background-color: #514F16;
-  padding: 2rem;
+  background-color: #FFFFFF;
+  padding: 4rem;
   border-radius: 5rem;
   margin: 1.3rem; }
 
 .titulo-form {
-  color: #FFFFFF; }
+  color: #514F16; }
 
 .datos .item, .consulta .item {
   padding: 0.4rem; }

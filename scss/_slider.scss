@@ -26,6 +26,10 @@ $nav_link_color:#FFFFFF;
 	width: auto;
 }
 
+.caption-slider{
+	text-align: right;
+}
+
 .overlay-image{
 	position: absolute;
 	bottom: 0;
@@ -43,7 +47,16 @@ $nav_link_color:#FFFFFF;
 @media only screen and (max-width: 768px) {
 	.img-slider{
 	width: 400px;
-	height: auto;}
+	height: auto;
+	margin: auto;
+	
+	}
+
+	.caption-slider{
+		text-align: center;
+	}
+
+
 }
 
 	
